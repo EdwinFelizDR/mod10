@@ -1,0 +1,107 @@
+/* Reset the default styles */
+html {
+   border-left: 5px solid lightgray;
+}
+
+/* Style the body */
+body{
+   min-height: 100%;
+   height: 100vh;
+   font-family: sans-serif;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+/* Style the header */
+header {
+   padding-top: 1em;
+   padding-bottom: 1em;
+   padding-right: 2em;
+   padding-left: 2em;
+}
+
+/* Style the main content */
+main {
+   padding-top: 1em;
+   padding-bottom: 1em;
+   padding-right: 2em;
+   padding-left: 2em;
+}
+
+/* Style the footer */
+footer {
+   padding-top: 1em;
+   padding-bottom: 1em;
+   padding-right: 2em;
+   padding-left: 2em;
+}
+
+/* Style the headings (h1)*/
+h1 {
+   font-size: 2em; /* Increase the font size */
+   color: tomato; /* Change the color */
+}
+
+img {
+   width: 100%; /* Make sure images are responsive */
+}
+
+/* Style the top navigation bar */
+.navtop {
+   padding: 0%; /* remove all of the padding on the <ul> elements  */
+   list-style-type: none; /*set it's list-style-type to none*/
+   display: flex; /*display the list items in a row*/
+   justify-content: space-between; /*space the items out evenly*/
+}
+
+/* footer navigation to be lightgray */
+.navtop a {
+   color: lightgray;
+}
+
+/* Style the bottom navigation bar */
+.navbottom {
+   padding: 0%; /* remove all of the padding on the <ul> elements  */
+   list-style-type: none; /*set it's list-style-type to none*/
+   display: flex; /*display the list items in a row*/
+   justify-content: space-between; /*space the items out evenly*/
+}
+
+/* footer navigation to be tomato */
+.navbottom a {
+   color: tomato;
+}
+
+article{
+   border-bottom: 1px solid lightgray;
+   padding-bottom: 1em; /* Add some space between the articles */
+}
+
+
+/* Style the titles of the blog posts */
+article h2 {
+   font-size: 1.5em; /* Increase the font size */
+}
+
+/* Style the drop cap */
+article p::first-letter {
+   color: lightgray;
+   font-size: 3em;
+   font-weight: bold;
+   float: left;
+   margin-right: 0.1em; /* Space between the drop cap and the text */
+}
+
+/* Style the 'continues...' anchor tags 
+aligned to the right, bold and tomato colored*/
+article a {
+   display: block;
+   text-align: right;
+   font-weight: bold;
+   color: tomato;
+}
+
+/* Style the copyright */
+.copyright {
+   color: lightgray;
+}
